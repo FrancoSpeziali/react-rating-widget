@@ -31,8 +31,6 @@ This project assumes you've already had experience with:
 
 ✔ You can use functional or class based components, or both
 
-✔ You can use functional or class based components, or both
-
 ## Requirements
 
 The rating widget should have the following functionality:
@@ -47,13 +45,15 @@ The rating widget should have the following functionality:
 
 ## Getting Started
 
-Create a new project folder, using `create-react-app`
+You can use `create-react-app` for this assignment
 
-Use a folder name of your choice
+To setup `create-react-app` in the current folder, use the following command
 
-[How to use create-react-app](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app)
+`npx create-react-app .`
 
-### Step 1 - Initial design
+## Tasks
+
+## Task 1 - Initial design
 
 It's important to lay a good foundation, or you may find yourself in the future unable to fulfill your tasks easily.
 
@@ -69,7 +69,7 @@ Before you start coding, consider the following:
 
 > Hint: Will you build everything in one component? Could you split the responsibilities between subcomponents?
 
-### Step 2 - Designing and rendering the state
+## Task 2 - Designing and rendering the state
 
 Setup and render the state within your component. It should;
 
@@ -82,13 +82,13 @@ Setup and render the state within your component. It should;
 > The rating icons will each have a "binary" state - either they will be active or inactive 
 > Your state should be a reflection of how the ratings
 
-### Step 3 - Styling
+## Task 3 - Styling
 
 Now the logic is out of the way, we can focus on styling.
 
 Add styles and icons for the rating widget. The ratings should be visualised with a list of icons.
 
-### Step 4 - Adding click events
+## Task 4 - Adding click events
 
 1. Add a click event to each rendered icon
 
@@ -98,7 +98,7 @@ Add styles and icons for the rating widget. The ratings should be visualised wit
 
 > Example: The user clicks on icon 3. Icons 1 and 2 and 3 are now "active". Icons 4 and 5 are "inactive"
 
-### Bonus Step 5 - Adding a hover event
+## Task 5 - Adding a hover event
 
 When you hover over the  "inactive" icons, it should give you a preview of how the icons might look.
 
